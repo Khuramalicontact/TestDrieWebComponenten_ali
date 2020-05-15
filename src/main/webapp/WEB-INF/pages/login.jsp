@@ -12,7 +12,7 @@
 </head>
 <body>
 <h1>Welcome</h1>
-
+<h1>Hello Guest <span>${warningMessage}</span></h1>
 <form method="post">
     <p>Name: <input type="text" name="nametoadd"></p>
     <input type="submit" name="action" value="login">

@@ -11,7 +11,7 @@
     <title>Welcome</title>
 </head>
 <body>
-<h1>Welcome back ${sessionScope.nametoadd}</h1>
+<h1>Welcome ${nametoadd}</h1>
     <form method ="post">
     <input type="submit" name="action" value="logout">
 </form>
